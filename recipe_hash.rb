@@ -37,7 +37,7 @@ def ingredients_and_amounts(perfect_10_recipe)
 puts ingredient
 puts amount
  end   
-    
+end    
     
     
     
