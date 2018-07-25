@@ -34,8 +34,8 @@ end
 #3: Use `puts` to print out every ingredient and amount in the hash by iterating through the collection. You'll want to use the `each` method.
 def ingredients_and_amounts(perfect_10_recipe)
   perfect_10_recipe.each do |ingredient,amount|
-puts ingredient
-puts amount
+puts "#{ingredient} #{amount}"
+
  end   
 end    
     
